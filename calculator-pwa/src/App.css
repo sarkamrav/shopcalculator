@@ -1,0 +1,127 @@
+.app {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
+}
+body {
+  background-color: #2b1b36;
+  color: white;
+}
+
+form {
+margin: auto;
+width: 786px;;
+}
+
+input {
+  width: 84%;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  outline: none;
+  box-sizing: border-box;
+  margin-left: 36px;
+}
+input[type=text]:focus {
+  border: 2px solid #b08e58;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin:10px auto 1rem;
+  color: #42c42e;
+}
+
+
+input:first-child {
+  margin-top: 15rem;
+}
+
+.inputContainer {
+  width: 100%;
+}
+
+h3{
+  word-wrap:break-word;
+  width: 100%;
+  text-align: center;
+  margin-top:0px;
+}
+
+button {
+   width: auto;
+   padding: 10px 30px;
+   font-size: 15px;
+   font-weight: 700;
+   outline: none;
+   background: #e12147;
+   color: white;
+   border: 1px solid black;
+   margin-top:20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  font-size: 17px;
+  transition: all .5s ease-in-out;
+}
+.active {
+  border: 2px solid white;;
+}
+
+.languageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image img {
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit: contain;
+  
+}
+
+.image {
+  height: 85px;
+}
+
+.languageWrapper button {
+  padding: 8px 20px;
+}
+
+.shopName {
+  color: white;
+}
+
+.shopWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 18%;
+  height: 18%;
+}
+
+.shopWrapper h1 {
+  margin: 10px 0.7rem;
+}
